@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pixel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <table class="board" cellspacing="0px">
+        </table>
+
+        <div class="menu">
+            <div class="circle">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div class="pencil">
+                <i class="fas fa-pencil-alt"></i>
+                <p class="desc">pencil</p>
+            </div>
+
+            <div class="bucket">
+                <i class="fas fa-fill"></i>
+                <p class="desc">bucket</p>
+            </div>
+
+            <div class="eraser">
+                <i class="fas fa-eraser"></i>
+                <p class="desc">eraser</p>
+            </div>
+
+            <div class="colors">
+                <div class="color-array">
+
+                </div>
+                <input type="color">
+                <button class="add">Add Color</button>
+                <p class="desc">colors</p>
+            </div>
+
+            <div class="save">
+                <i class="fas fa-save"></i>
+                <p class="desc">save</p>
+            </div>
+        </div>
+
+        <div class="pop-up">
+            <p>Are you Sure?</p>
+            <div class="result"></div>
+        </div>
+        
+        
+    </div>
+
+    
+    <script type="module" src="pixel.js"></script>
+    <script type="text/javascript" src="https://github.com/niklasvh/html2canvas/releases/download/0.5.0-alpha1/html2canvas.js"></script>
+</body>
+</html>
